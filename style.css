@@ -514,16 +514,32 @@ section.skills{
 }
 
 .skill-bar .bar .html{
-    width: 72%;
+    width: 80%;
     animation: html 2s;
 }
 .skill-bar .bar .css{
     width: 70%;
-    animation: css 3s;
+    animation: css 4s;
 }
 .skill-bar .bar .javascript{
     width: 50%;
     animation: javscript 4s;
+}
+.skill-bar .bar .react{
+    width: 50%;
+    animation: javscript 3s;
+}
+.skill-bar .bar .bootstrap{
+    width: 80%;
+    animation: javscript 4s;
+}
+.skill-bar .bar .python{
+    width: 50%;
+    animation: javscript 3s;
+}
+.skill-bar .bar .sass{
+    width: 100%;
+    animation: javscript 5s;
 }
 
 /* skills right--------------------------------------------------- */
@@ -975,10 +991,15 @@ footer a i{
         max-width: 100%;
      }
      .home-image .img-box img{
-        margin-right: 50px;
+        margin-right: 10px;
         width: 200px;
      }
      footer p{
            flex-wrap: wrap;
+     }
+     .social-icons{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
      }
  }
