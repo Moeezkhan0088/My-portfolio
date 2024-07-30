@@ -81,10 +81,16 @@ span{
     display: flex;
 }
 .navlist a{
+    display: inline-block;
     color: var(--text-color);
     font-weight: 500;
     padding: 10px 20px;
+    animation: slideAnimation 1s ease forwards;
+    animation-delay: calc(.3s * var(--i));
+    opacity: 0;
 }
+
+
 .navlist a:hover{
     color: var(--hover-color);
     text-shadow: 0 0 10px rgba(18,247,255,0.6),
@@ -592,7 +598,7 @@ section.portfolio{
         gap: 10px;
 }
 
-.filter-buttons .btn{
+.filter-buttons .button{
     background: none;
     outline: none;
     border: none;
@@ -604,7 +610,7 @@ section.portfolio{
     color: var(--text-color);
 }
 
-.filter-buttons .btn:hover{
+.filter-buttons .button:hover{
             color: var(--hover-color);
 }
 
@@ -769,10 +775,29 @@ footer a i{
 }
 
 
+/* parallax  */
 
+.scroll-scale{
+    opacity: 0;
+    transform: scale(.9);
+    transition: all 2s;
+}
 
+.scroll-bottom{
+    opacity: 0;
+    transform: translateY(300px);
+    transition: 3s;
+}
+.scroll-top{
+    opacity: 0;
+    transform: translateY(-300px);
+    transition: 3s;
+}
 
-
+.show-items{
+    opacity: 1;
+    transform: translateX(0);
+}
 
 
 
@@ -847,6 +872,19 @@ footer a i{
     }
  }
 
+
+
+
+ @keyframes slideAnimation {
+    0%{
+        opacity: 0;
+        transform: translateY(100px);
+    }
+    100%{
+        opacity: 1;
+        transform: translateY(0);
+    }
+ }
 
 
 
