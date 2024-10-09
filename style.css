@@ -242,7 +242,7 @@ section{
 .social-icons{
     margin-top: 4rem;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     width: 220px;
     height: 40px;
 }
