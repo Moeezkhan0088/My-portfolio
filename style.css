@@ -519,27 +519,27 @@ section.skills{
 }
 .skill-bar .bar .css{
     width: 70%;
-    animation: css 4s;
+    animation: css 2s;
 }
 .skill-bar .bar .javascript{
-    width: 50%;
-    animation: javscript 4s;
+    width: 80%;
+    animation: javscript 2s;
 }
 .skill-bar .bar .react{
-    width: 50%;
-    animation: javscript 3s;
+    width: 70%;
+    animation: javscript 2s;
 }
 .skill-bar .bar .bootstrap{
     width: 80%;
-    animation: javscript 4s;
+    animation: javscript 2s;
 }
 .skill-bar .bar .python{
-    width: 50%;
-    animation: javscript 3s;
+    width: 80%;
+    animation: javscript 2s;
 }
 .skill-bar .bar .sass{
     width: 100%;
-    animation: javscript 5s;
+    animation: javscript 2s;
 }
 
 /* skills right--------------------------------------------------- */
